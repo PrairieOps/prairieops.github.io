@@ -1,12 +1,10 @@
 ---
----
-
 $apple-blossom: #ac4142;
 $alto: #d0d0d0;
 $bouquet: #aa759f;
 $chelsea-cucumber: #90a959;
 $cod-grey: #151515;
-$conifer: #002b36;
+$conifer: #2aa198;
 $dove-grey: #666;
 $gallery: #eaeaea;
 $grey: #888;
@@ -16,4 +14,7 @@ $potters-clay: #8f5536;
 $rajah: #f4bf75;
 $raw-sienna: #d28445;
 $silver-chalice: #aaa;
+$header: #2aa198;
+---
+
 @import "{{ site.theme }}";
