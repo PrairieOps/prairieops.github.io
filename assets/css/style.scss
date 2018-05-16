@@ -1,20 +1,22 @@
 ---
-$apple-blossom: #ac4142;
-$alto: #d0d0d0;
-$bouquet: #aa759f;
-$chelsea-cucumber: #90a959;
-$cod-grey: #151515;
-$conifer: #2aa198;
-$dove-grey: #666;
-$gallery: #eaeaea;
-$grey: #888;
-$gulf-stream: #75b5aa;
-$hippie-blue: #6a9fb5;
-$potters-clay: #8f5536;
-$rajah: #f4bf75;
-$raw-sienna: #d28445;
-$silver-chalice: #aaa;
-$header: #2aa198;
 ---
 
 @import "{{ site.theme }}";
+header {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-bottom: 1px dashed #2aa198; //header;
+  padding: 20px 0;
+  margin: 0 0 40px 0;
+}
+
+header h1 { font-size: 30px; line-height: 1.5; margin: 0 0 0 -40px; font-weight: bold; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #2aa198; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); letter-spacing: -1px; -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #2aa198; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+
+pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 16px; color: #2aa198; border-radius: 2px; word-wrap: normal; overflow: auto; overflow-y: hidden; }
+
+th { text-align: left; border-bottom: 1px dashed #2aa198; padding: 5px 10px; }
+
+
+hr { height: 0; border: 0; border-bottom: 1px dashed #2aa198; color: #2aa198; }
