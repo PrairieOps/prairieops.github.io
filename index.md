@@ -4,3 +4,44 @@
 layout: default
 title: PrarieOps
 ---
+
+## About
+![Github avatar image of Jason Sherman](https://github.com/jsnshrmn.png)
+
+PrarieOps is operated by Jason Sherman, who's been providing web infrastructure for non-profits and small businesses since 2006. Jason is a library techie, a student of the liberal arts, and a native of Oklahoma.
+
+## Contact
+<div class="ss-required-asterisk">* Required</div>
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSeLpMtg9RvO4jATSL4P9SNL-yLzPg2medKu2pCQ-p3objhMHw/formResponse?embedded=True" method="post" target="hidden_iframe" onsubmit="submitted=true;" id="ss-form" autocomplete="on"><ol role="list" class="ss-question-list" style="padding-left: 0;">
+<div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_976949438"><div class="ss-q-title">Name
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input name="entry.976949438" value="" class="ss-q-short" id="entry_976949438" dir="auto" aria-label="Name  " aria-required="true" required="" title="" type="text">
+<div class="error-message" id="1625751589_errorMessage"></div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1427289310"><div class="ss-q-title">Email Address
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<input name="entry.1427289310" value="" class="ss-q-short" id="entry_1427289310" dir="auto" aria-label="Email Address  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address" type="email">
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="auto" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1531547001"><div class="ss-q-title">Message
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+<textarea name="entry.1531547001" rows="8" cols="0" class="ss-q-long" id="entry_1531547001" dir="auto" aria-label="Message  " aria-required="true" required=""></textarea>
+<div class="error-message" id="1796882813_errorMessage"></div>
+</div></div></div>
+<input name="pageHistory" value="0" type="hidden">
+<input name="fbzx" value="-7098077781659914036" type="hidden">
+<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+<input name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action " type="submit">
+</td>
+</tr></tbody></table></div></ol></form>

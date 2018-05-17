@@ -29,6 +29,41 @@ a.btn-github {
   display: none !important;
 }
 
+iframe {
+    max-width: 700px !important;
+    min-height: 640px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: -10px;
+}
+
+input, textarea {
+    background: $base03;
+    color: $body-foreground;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.ss-q-title {
+    font-size: small;
+}
+
+.ss-q-long {
+    min-width: 240px;
+    max-width: 600px;
+    width: 75%;
+}
+.ss-required-asterisk {
+    color: $magenta;
+    font-size: small;
+}
+
+#ss-submit {
+  margin-left: -10px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -36,10 +71,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  /* background: linear-gradient(rgba(253,246,227, 1) 33%, rgba(253,246,227, 0.3), rgba(7,54,66, 1)),
-    url("../images/prarie.jpg") center no-repeat;
-  min-height: 880px; */
 }
+
 /* General & 'Reset' Stuff */
 
 .container {
