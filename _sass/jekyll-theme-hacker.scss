@@ -1,22 +1,45 @@
 @import "rouge-base16-dark";
 @import "default_colors";
+@import "solarized_colors";
 
-$body-background: $cod-grey !default;
-$body-foreground: $gallery !default;
-$header: $conifer !default;
-$blockquote-color: $silver-chalice !default;
-$blockquote-border: $dove-grey !default;
+$body-background: $base02 !default;
+$body-foreground: $base1 !default;
+$header: $yellow !default;
+$content-background: $base02 !default;
+$blockquote-color: $base00 !default;
+$blockquote-border: $yellow !default;
+
+html {
+  background: $base02;
+}
+
+/* WebKit/Blink Browsers */
+::selection {
+  background: $cyan;
+  color: $base03;
+}
+
+/* Gecko Browsers */
+::-moz-selection {
+  background: $cyan;
+  color: $base03;
+}
+
+a.btn-github {
+  display: none !important;
+}
 
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../images/bkg.png") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  /* background: linear-gradient(rgba(253,246,227, 1) 33%, rgba(253,246,227, 0.3), rgba(7,54,66, 1)),
+    url("../images/prarie.jpg") center no-repeat;
+  min-height: 880px; */
 }
-
 /* General & 'Reset' Stuff */
 
 .container {
@@ -45,11 +68,11 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom: 1px dashed $yellow; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
+  background: $base03;
 }
 
 header h1 {
@@ -58,10 +81,7 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  color: $yellow;//$header;
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
@@ -74,7 +94,7 @@ header h1:before {
 header h2 {
   font-size: 18px;
   font-weight: 300;
-  color: $dove-grey;
+  color: $base1;
 }
 
 #downloads .btn {
@@ -89,6 +109,7 @@ header h2 {
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  background: $content-background;
 }
 section img {
   max-width: 100%
@@ -99,9 +120,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
   letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
@@ -149,7 +167,7 @@ blockquote {
 }
 
 pre {
-  background: rgba(0, 0, 0, 0.9);
+  background: $base03;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 16px;
@@ -196,7 +214,7 @@ hr {
 
 .btn {
   display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: -webkit-linear-gradient(top, rgba(40, 43, 54, 0.6), rgba(35, 43, 54, 0.6) 50%, rgba(10, 43, 54, 0.8) 50%, rgba(0, 0, 0, 0.8));
   padding: 8px 18px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);

@@ -16,11 +16,12 @@
 title: PrarieOps
 email: jason@prarieops.io
 description: >- # this means to ignore newlines until "baseurl:"
-  A web infrastructure outfit founded in the middle of the U.S.
+  Web infrastructure from the U.S. Central Plains.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: PrarieOps
+show_github: false
 
 # Build settings
 markdown: kramdown
