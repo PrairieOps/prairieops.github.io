@@ -11,10 +11,10 @@ title: PrarieOps
 PrarieOps is operated by Jason Sherman, who's been providing web infrastructure for non-profits and small businesses since 2006. Jason is a library techie, a student of the liberal arts, and a native of Oklahoma.
 
 ## Contact
+<span id="submit_msg"></span>
 <div class="ss-required-asterisk">* Required</div>
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/';}"></iframe>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSeLpMtg9RvO4jATSL4P9SNL-yLzPg2medKu2pCQ-p3objhMHw/formResponse?embedded=True" method="post" target="hidden_iframe" onsubmit="submitted=true;" id="ss-form" autocomplete="on"><ol role="list" class="ss-question-list" style="padding-left: 0;">
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submit_state) {window.location='/?submit=true';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSeLpMtg9RvO4jATSL4P9SNL-yLzPg2medKu2pCQ-p3objhMHw/formResponse?embedded=True" method="post" target="hidden_iframe" onsubmit="submit_state=true;" id="ss-form" autocomplete="on"><ol role="list" class="ss-question-list" style="padding-left: 0;">
 <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_976949438"><div class="ss-q-title">Name
@@ -43,3 +43,4 @@ PrarieOps is operated by Jason Sherman, who's been providing web infrastructure 
 <input name="fbzx" value="-7098077781659914036" type="hidden">
 <input name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action " type="submit">
 </ol></form>
+<script type="text/javascript">var submit_state=false;var url = new URL(window.location.href);var submit_msg=url.searchParams.get("submit"); if (submit_msg) { var submitted_span = document.getElementById("submit_msg"); submitted_span.textContent = "Your message was sent.";}</script>
