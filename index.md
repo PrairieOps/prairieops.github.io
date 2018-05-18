@@ -6,7 +6,7 @@ title: PrarieOps
 ---
 
 ## About
-![Github avatar image of Jason Sherman](https://github.com/jsnshrmn.png)
+![Github avatar image of Jason Sherman](https://avatars.githubusercontent.com/u/2986893)
 
 PrarieOps is operated by Jason Sherman, who's been providing web infrastructure for non-profits and small businesses since 2006. Jason is a library techie, a student of the liberal arts, and a native of Oklahoma.
 
@@ -41,7 +41,5 @@ PrarieOps is operated by Jason Sherman, who's been providing web infrastructure 
 </div></div></div>
 <input name="pageHistory" value="0" type="hidden">
 <input name="fbzx" value="-7098077781659914036" type="hidden">
-<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
 <input name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action " type="submit">
-</td>
-</tr></tbody></table></div></ol></form>
+</ol></form>
