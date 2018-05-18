@@ -19,7 +19,7 @@ Picked up development of the [library card platform](https://github.com/Wikipedi
 Consultation for multisite wordpress architecture and performance.
 
 ### Miscellaneous
-Created an [Ansible role for hosting multisite wordpress](https://github.com/jsnshrmn/ansible-role-wpn) on behalf of clients.
+Created an [Ansible role for hosting multisite wordpress](https://github.com/jsnshrmn/ansible-role-wpn) on behalf of clients. More can be found on on [GitHub](https://github.com/jsnshrmn), [LinkedIn](https://www.linkedin.com/in/jsnsherman/), and [Drupal.org](https://www.drupal.org/u/jsherman).
 
 ## Contact
 <span id="submit_msg"></span>
