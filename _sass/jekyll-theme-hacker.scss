@@ -107,17 +107,19 @@ header {
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
+  margin: 0;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $yellow;//$header;
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+  position: relative;
 }
 
 header h1:before {
-  content: "./ ";
-  font-size: 24px;
+  content: url("../images/logo.png");
+  position: absolute;
+  left: -60px;
 }
 
 header h2 {
