@@ -9,10 +9,6 @@ $content-background: $base02 !default;
 $blockquote-color: $base00 !default;
 $blockquote-border: $yellow !default;
 
-html {
-  background: $body-background;
-}
-
 /* WebKit/Blink Browsers */
 ::selection {
   background: $cyan;
@@ -57,13 +53,11 @@ input, textarea {
 
 .ss-required-asterisk {
     color: $cyan;
-    background: $base03;
     padding: 4px;
 }
 
 label {
     padding: 4px;
-    background: $base03;
 }
 
 body {
@@ -73,8 +67,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  background: linear-gradient($content-background, $base03 75%) no-repeat;
-  background-size: cover;
+  background: $body-background;
 }
 
 /* General & 'Reset' Stuff */
@@ -109,7 +102,6 @@ header {
   border-bottom: 1px dashed $yellow; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
-  background: $base03;
 }
 
 header h1 {
@@ -151,7 +143,6 @@ header h2 {
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  //background: $content-background;
 }
 section img {
   max-width: 100%
@@ -297,10 +288,10 @@ hr {
 */
 
 a {
-  color: $blue;
-  background: $base03;
+  //color: $blue;
+  color: #61a1ce; // had to lighten up the solarized blue for accessibility.
   padding: 4px;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.4);
 }
 
 /* Clearfix */
