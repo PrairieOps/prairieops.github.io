@@ -8,7 +8,12 @@ title: PrarieOps
 ## About
 ![Github avatar image of Jason Sherman](https://avatars.githubusercontent.com/u/2986893)
 
-PrarieOps is operated by Jason Sherman, who's been providing web infrastructure for non-profits and small businesses since 2006. Jason is a library techie, a student of the liberal arts, and a native of Oklahoma.
+PrarieOps is operated by Jason Sherman, who's been providing web infrastructure for non-profits and small businesses since 2006. Jason is a library techie, a student of the liberal arts, and a native of Oklahoma. You can find him on [GitHub](https://github.com/jsnshrmn), [LinkedIn](https://www.linkedin.com/in/jsnsherman/), and [Drupal.org](https://www.drupal.org/u/jsherman).
+
+## Work
+
+### [Wikipedia Library Project](https://wikipedialibrary.wmflabs.org/)
+Picked up development of [platform](https://github.com/WikipediaLibrary/TWLight) where the initial developer left off. Created a straightforward [puppet module](https://github.com/WikipediaLibrary/twlight_puppet) for provisioning in Wikimedia infrastructure and newly created [Vagrant environment](https://github.com/WikipediaLibrary/twlight_vagrant).
 
 ## Contact
 <span id="submit_msg"></span>
