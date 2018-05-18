@@ -2,7 +2,7 @@
 @import "default_colors";
 @import "solarized_colors";
 
-$body-background: $base02 !default;
+$body-background: $base03 !default;
 $body-foreground: $base1 !default;
 $header: $yellow !default;
 $content-background: $base02 !default;
@@ -10,7 +10,7 @@ $blockquote-color: $base00 !default;
 $blockquote-border: $yellow !default;
 
 html {
-  background: $base02;
+  background: $body-background;
 }
 
 /* WebKit/Blink Browsers */
@@ -43,11 +43,10 @@ input, textarea {
     padding: 6px 10px;
     margin: 4px 0;
     box-sizing: border-box;
-    border: none;
+    border: dashed 1px $yellow;
 }
 
 .ss-q-title {
-    font-size: small;
 }
 
 .ss-q-long {
@@ -55,9 +54,16 @@ input, textarea {
     max-width: 600px;
     width: 75%;
 }
+
 .ss-required-asterisk {
-    color: $magenta;
-    font-size: small;
+    color: $cyan;
+    background: $base03;
+    padding: 4px;
+}
+
+label {
+    padding: 4px;
+    background: $base03;
 }
 
 body {
@@ -67,6 +73,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  background: linear-gradient($content-background, $base03 75%) no-repeat;
+  background-size: cover;
 }
 
 /* General & 'Reset' Stuff */
@@ -143,13 +151,13 @@ header h2 {
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  background: $content-background;
+  //background: $content-background;
 }
 section img {
   max-width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+#nav a, h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
@@ -157,6 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
+  text-decoration: none;
 }
 
 #main_content h1 {
@@ -288,7 +297,9 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: $blue;
+  background: $base03;
+  padding: 4px;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
