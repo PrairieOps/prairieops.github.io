@@ -13,7 +13,7 @@ PrarieOps is operated by Jason Sherman, who's been providing web infrastructure 
 ## Work
 
 ### [Wikipedia Library Project](https://wikipedialibrary.wmflabs.org/)
-Picked up development of [platform](https://github.com/WikipediaLibrary/TWLight) where the initial developer left off. Created a straightforward [puppet module](https://github.com/WikipediaLibrary/twlight_puppet) for provisioning in Wikimedia infrastructure and newly created [Vagrant environment](https://github.com/WikipediaLibrary/twlight_vagrant).
+Picked up development of the [library card platform](https://github.com/WikipediaLibrary/TWLight) where the initial developer left off. Created a straightforward [puppet module](https://github.com/WikipediaLibrary/twlight_puppet) for provisioning in Wikimedia infrastructure and newly created [Vagrant environment](https://github.com/WikipediaLibrary/twlight_vagrant).
 
 ## Contact
 <span id="submit_msg"></span>
