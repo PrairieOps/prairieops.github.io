@@ -117,12 +117,14 @@ header h1 {
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
   position: relative;
+  left: 41px;
 }
 
 header h1:before {
   content: url("../images/logo.png");
   position: absolute;
-  left: -60px;
+  left: -50px;
+  top: -2px;
 }
 
 header h2 {
