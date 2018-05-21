@@ -7,6 +7,6 @@ permalink: /
 ---
 
 ## About
-![Github avatar image of Jason Sherman](https://avatars.githubusercontent.com/u/2986893)
+![Github avatar image of Jason Sherman](https://avatars.githubusercontent.com/u/2986893){: .avatar}
 
 PrairieOps is operated by Jason Sherman, who's been providing web infrastructure for non-profits and small businesses since 2006. Jason is a library techie, a student of the liberal arts, and a native of Oklahoma. You can find him on [GitHub](https://github.com/jsnshrmn), [LinkedIn](https://www.linkedin.com/in/jsnsherman/), [Keybase](https://keybase.io/jss), and [Drupal.org](https://www.drupal.org/u/jsherman).

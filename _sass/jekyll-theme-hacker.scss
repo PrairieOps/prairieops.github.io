@@ -9,6 +9,11 @@ $content-background: $base02 !default;
 $blockquote-color: $base00 !default;
 $blockquote-border: $yellow !default;
 
+img.avatar {
+  height: 300px;
+  width: 300px;
+}
+
 /* WebKit/Blink Browsers */
 ::selection {
   background: $cyan;
