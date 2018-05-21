@@ -121,7 +121,12 @@ header h1 {
 }
 
 header h1:before {
-  content: url("../images/logo.png");
+  background-image: url("../images/logo96.png");
+  content: "";
+  display: inline-block;
+  background-size: 48px 48px;
+  height: 48px;
+  width: 48px;
   position: absolute;
   left: -50px;
   top: -2px;
